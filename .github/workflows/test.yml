@@ -16,6 +16,6 @@ jobs:
       - name: Install Chrome
         run: sudo apt-get install google-chrome-stable
       - name: install dependencies
-        run: pip install -r requiremements.txt
+        run: pip install -r requirements.txt
       - name: start tests
         run: pytest
