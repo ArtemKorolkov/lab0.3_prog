@@ -1,4 +1,4 @@
-from labs_prog.main_lab2 import decrypt_caesar
+from main_lab2 import decrypt_caesar
 import pytest
 
 @pytest.mark.parametrize('a,expected_result',[('SBWKRQ','PYTHON'),
