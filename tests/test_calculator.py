@@ -1,4 +1,4 @@
-from main_lab1 import calculator
+from labs_prog/main_lab1 import calculator
 import pytest
 
 @pytest.mark.parametrize('a,expected_result',[('4 + 6',10),
